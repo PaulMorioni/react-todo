@@ -21,7 +21,7 @@ function App() {
   }, [todos]);
 
   function addTodo(todo) {
-    setTodos([todo, ...todo]);
+    setTodos([todo, ...todos]);
   }
 
   function toggleComplete(id) {
